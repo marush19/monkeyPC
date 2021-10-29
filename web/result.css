@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+
+/* 共通部分 */
+html {
+    font-size: 100%;
+}
+
+body{
+    background-color: #fff;
+    font-family:"Yu Gothic Medium","游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ　Pro　W3", sans-serif;
+    line-height:1.7;
+    color : #432;
+}
+
+header { 
+  width: 1920px;
+  height: 70px;
+  background-color: #CE2932;
+  box-shadow: 0px 1px 35px 9px #525252;
+}
+
+
+header h1 {
+  color: rgb(241, 241, 241);
+  font-weight: bold;
+  font-size: 40px;
+
+  position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%);
+  white-space: nowrap
+  
+}
+
+
+.ques p {
+  
+    font-weight: bold;
+    color:#ecab61;
+    font-size: 60px;
+    margin: 50px 0px;
+    text-align:center;
+}
+
+
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 520px;
+}
+
+
+
+.undo {
+  position: relative;
+  width: 0;
+  height: 0;
+  margin: 20px 0px 20px 0px;
+  border-style: solid;
+  border-width: 30px 52.0px 30px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+/*.undo p {
+  font-family: "M PLUS 1p"; 
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 0px 0px 0;
+}
+*/
+
+
+
+.move {
+  width:  0;
+  height: 0;
+  margin: 20px 0px 20px 240px;
+  border-style: solid;
+  border-width: 30px 0px 30px 52.0px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+
+
+/* PC用------------------------------------------------------------------------- */
+@media screen and (min-width: 1025px) {
+
+
+.container {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  }
+
+  .item1 {
+    width: 1000px;
+    height: 500px;
+    margin: 100px 0;
+
+    color: #292929e3;
+    background: #ecab61;
+    border-bottom: solid 6px #ca9252;
+    border-radius: 9px;
+  }
+
+  .item1 p {
+    font-family: "M PLUS 1p"; 
+    font-weight: bold;
+    font-size: 40px;
+    margin: 15px 100px;
+    text-align:center;
+  }
+
+}
+
+
+
+
+
+
+/* スマホ用------------------------------------------------------------------------- */
+  @media only screen and (max-width:1025px){
+
+
+
+    .ques p {
+  
+      font-weight: bold;
+      color:#ecab61dc;
+      font-size: 55px;
+      margin: 50px 0px;
+      text-align:center;
+  }
+
+  .item1 {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+
+    color: #292929e3;
+    background: #ecab61;
+    border-bottom: solid 6px #ca9252;
+    border-radius: 9px;
+  }
+
+  .item1 p {
+    font-family: "M PLUS 1p"; 
+    font-weight: bold;
+    font-size: 30px;
+    margin: 15px 100px;
+    text-align:center;
+  }
+
+  }
+
+
+  
+
+
+
+footer { 
+    position: absolute;
+    bottom: 0; 
+    width: 1920px;
+    height: 100px;
+    background-color: #CE2932;
+    box-shadow: 0px -1px 35px 9px #838383;
+    
+
+}
