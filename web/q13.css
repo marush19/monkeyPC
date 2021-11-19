@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+
+/* 共通部分 */
+html {
+    font-size: 100%;
+}
+
+body{
+    background-color: #fff;
+    font-family:"Yu Gothic Medium","游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ　Pro　W3", sans-serif;
+    line-height:1.7;
+    color : #432;
+}
+
+header { 
+  width: 1920px;
+  height: 120px;
+  background-color: #CE2932;
+  box-shadow: 0px 1px 35px 9px #525252;
+}
+
+
+header h1 {
+  color: rgb(241, 241, 241);
+  font-weight: bold;
+  font-size: 40px;
+
+  position: absolute;
+	top: 50px;
+	left: 50%;
+	transform: translate(-50%);
+  white-space: nowrap
+}
+
+header img {
+  position: absolute;
+  top: 20px;
+  bottom: 900px;
+  left: 0px;
+  right: 0;
+  margin:auto;
+  max-width: 40%;
+  max-height: 40%;
+
+}
+
+
+
+
+
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+
+.ques p {
+  
+    font-weight: bold;
+    color:#ecab61;
+    font-size: 60px;
+    margin: 50px 0px;
+    text-align:center;
+}
+
+
+.logo img {
+  position: absolute;
+  top: 80px;
+  bottom: 300px;
+  left: 0px;
+  right: 0;
+  margin: auto;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+
+/* PC用------------------------------------------------------------------------- */
+@media screen and (min-width: 1025px) {
+
+.about p {
+  margin: 300px 0 0 0;
+  text-align: center;
+  font-family: "M PLUS 1p"; 
+  font-weight: bold;
+  font-size: 20px;
+ }
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  }
+
+  .item1 {
+    width: 400px;
+    height: 80px;
+    margin: 450px 0 30px 0;
+
+    color: #ffffffe3;
+    background: #2b2b2b;
+    border-bottom: solid 6px #181818;
+    border-radius: 9px;
+  }
+
+  .item1 p {
+    font-family: "M PLUS 1p"; 
+    font-weight: bold;
+    font-size: 35px;
+    margin: 7px 0px 0px 0px;
+    text-align:center;
+  }
+
+  .item2 {
+    width: 400px;
+    height: 80px;
+    margin: auto;
+
+    color: #ffffffe3;
+    background: #2b2b2b;
+    border-bottom: solid 6px #181818;
+    border-radius: 9px;
+  }
+
+  .item2 p {
+    font-family: "M PLUS 1p"; 
+    font-weight: bold;
+    font-size: 35px;
+    margin: 10px 0px 0px 0px;
+    text-align:center;
+  }
+
+/* スマホ用------------------------------------------------------------------------- */
+@media only screen and (max-width:1025px){
+
+  .about p {
+    margin: 300px 0 0 0;
+    text-align: center;
+    font-family: "M PLUS 1p"; 
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  header h1 {
+    color: rgb(241, 241, 241);
+    font-weight: bold;
+    font-size: 30px;
+  
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap
+    
+  }
+
+}
+
+
+
+
+footer { 
+    position: absolute;
+    bottom: 0; 
+    width: 1920px;
+    height: 100px;
+    background-color: #CE2932;
+    box-shadow: 0px -1px 35px 9px #838383;
+}
+
+.start {
+  float: left;
+  font-family: "M PLUS 1p"; 
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(241, 241, 241);
+  margin: 20px 0px 0px 50px;
+}
+
+.undo {
+  font-family: "M PLUS 1p"; 
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(241, 241, 241);
+  margin: 20px 100px 0px 250px;
+}
