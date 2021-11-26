@@ -7,7 +7,7 @@ html {
 }
 
 body{
-    background-color: #fff;
+    background-color: rgb(255, 198, 198);
     font-family:"Yu Gothic Medium","游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ　Pro　W3", sans-serif;
     line-height:1.7;
     color : #432;
@@ -17,7 +17,7 @@ header {
   width: 100%;
   height: 120px;
   background-color: #CE2932;
-  box-shadow: 0px 1px 35px 9px #525252;
+  box-shadow: 0px 1px 15px 9px #9b9b9b;
 }
 
 
@@ -38,7 +38,7 @@ header h1 {
 .logo {
   margin-left: auto;
   margin-right: auto;
-  width: 320px;
+  width: 300px;
 }
 
 .logo img {
@@ -72,14 +72,14 @@ a {
 .vis {
   margin-left: auto;
   margin-right: auto;
-  width: 320px;
+  width: 300px;
 }
 
 
 .vis img {
   width: 300px;
   height: 300px;
-  margin: auto;
+  margin-top: 20px;
 }
 
 
@@ -105,8 +105,8 @@ a {
   }
 
   .item1 {
-    width: 400px;
-    height: 80px;
+    width: 300px;
+    height: 60px;
     margin: 50px 0 30px 0;
 
     color: #ffffffe3;
@@ -118,14 +118,14 @@ a {
   .item1 p {
     font-family: "M PLUS 1p"; 
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px 0px 0px 0px;
     text-align:center;
   }
 
   .item2 {
-    width: 400px;
-    height: 80px;
+    width: 300px;
+    height: 60px;
     margin: auto;
 
     color: #ffffffe3;
@@ -137,8 +137,8 @@ a {
   .item2 p {
     font-family: "M PLUS 1p"; 
     font-weight: bold;
-    font-size: 30px;
-    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    margin: 20px 0px 0px 0px;
     text-align:center;
   }
 
@@ -177,7 +177,7 @@ footer {
     width: 100%;
     height: 100px;
     background-color: #CE2932;
-    box-shadow: 0px -1px 35px 9px #838383;
+    box-shadow: 0px -1px 35px 9px #9b9b9b;
 }
 
 .button {
@@ -193,7 +193,7 @@ footer {
 .start {
   font-family: "M PLUS 1p"; 
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   white-space: nowrap;
   color: rgb(241, 241, 241);
   margin: 20px 0px 0px 50px;
@@ -202,8 +202,7 @@ footer {
 .undo {
   font-family: "M PLUS 1p"; 
   font-weight: bold;
-  font-size: 30px;
-  white-space: nowrap;
+  font-size: 20px;
   color: rgb(241, 241, 241);
-  margin: -50px 0px 0px 250px;
+  margin: -35px 0px 0px 210px;
 }
