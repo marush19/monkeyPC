@@ -116,10 +116,10 @@ a {
   }
 
   .item1 p {
-    font-family: "M PLUS 1p"; 
     font-weight: bold;
     font-size: 20px;
     margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     text-align:center;
   }
 
@@ -135,10 +135,10 @@ a {
   }
 
   .item2 p {
-    font-family: "M PLUS 1p"; 
     font-weight: bold;
     font-size: 20px;
     margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     text-align:center;
   }
 
@@ -230,19 +230,45 @@ footer {
 
 
 .start {
-  font-family: "M PLUS 1p"; 
+  width: 160px;
+  height: 50px;
+    
+  
+  background: #ad232a;
+  border-bottom: solid 6px #77171b;
+  border-radius: 9px;
+  
+  margin: -5px 20px 0px 20px;
+}
+
+.start p {
+  
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   white-space: nowrap;
   color: rgb(241, 241, 241);
-  margin: 20px 0px 0px 50px;
+  margin: 20px 0px 0px 25px;
+  padding: 6px 0px 0px 10px;
 }
 
 .undo {
-  font-family: "M PLUS 1p"; 
+  width: 160px;
+  height: 50px;
+    
+  
+  background: #ad232a;
+  border-bottom: solid 6px #77171b;
+  border-radius: 9px;
+
+  margin: -50px 0px 0px 200px;
+}
+
+.undo p {
+  
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   white-space: nowrap;
   color: rgb(241, 241, 241);
-  margin: -35px 0px 0px 210px;
+  margin: -40px 0px 0px 5px;
+  padding: 6px 0px 0px 10px;
 }
