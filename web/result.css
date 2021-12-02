@@ -131,9 +131,10 @@ a {
 .hitko p {
   color: #444444e3;
   margin: 10px 50px 30px 5px;
-  
+  padding: 0px 5px 10px 5px;
   font-weight: bold;
   font-size: 15px;
+  white-space: nowrap;
 }
 
 /* ------------------------------------------------------------------------- */
