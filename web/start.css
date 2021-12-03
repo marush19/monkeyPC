@@ -194,7 +194,7 @@ a {
     
     width: 1000px;
     height: 150px;
-    margin-top: 200px;
+    margin-top: 100px;
   
   }
 
@@ -220,8 +220,8 @@ a {
   }
 
   .item1 {
-    width: 200px;
-    height: 63px;
+    width: 150px;
+    height: 55px;
     margin: 50px 0 30px 0;
 
     color: #ffffffe3;
@@ -232,9 +232,9 @@ a {
 
   .item1 p {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     margin: 7px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: -50px 0px 0px 0px;
     text-align:center;
   }
 
