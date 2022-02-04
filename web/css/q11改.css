@@ -90,7 +90,7 @@ a {
 
 .ques {
   position: absolute;
-    top: 2%;
+    top: 3%;
     right: 0px;
     left: 0px;
     bottom: 50%;
@@ -109,7 +109,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 320px;
-    height: 500px;
+    height: 530px;
     border-radius: 20px;
     background: #f37278;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
@@ -137,7 +137,7 @@ h1 {
 
   
   color: rgb(65, 65, 65);
-  font-size: 21px;
+  font-size: 20.5px;
   
 
   
