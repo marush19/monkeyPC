@@ -90,10 +90,13 @@ a {
 
 .ques {
   position: absolute;
-    top: 5%;
+    top: 2%;
     right: 0px;
     left: 0px;
     bottom: 50%;
+
+    width: 100%;
+    height: auto;
 }
 
 
@@ -105,8 +108,8 @@ a {
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
-    height: 520px;
+    width: 320px;
+    height: 500px;
     border-radius: 20px;
     background: #f37278;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
@@ -117,7 +120,7 @@ a {
   margin-left: auto;
   margin-right: auto;
 
-  width: 300px;
+  width: 270px;
   height: 50px;
   border-radius: 0px 0 20px 20px;
   background: #ffffff;
@@ -127,12 +130,15 @@ a {
 h1 {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 900;
-  margin-top: 17px;
+  margin-top: 30px;
+  padding-top: 5px;
   text-align:center;
+  white-space: nowrap;
 
   
   color: rgb(65, 65, 65);
-  font-size: 22px;
+  font-size: 21px;
+  
 
   
   
